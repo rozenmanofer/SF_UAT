@@ -169,4 +169,37 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
+  salesforce.Picklist health__c {
+    apiName = "Account.health__c"
+    externalId = false
+    label = "health"
+    valueSet = [
+      {
+        fullName = "poor"
+        default = false
+        label = "poor"
+      },
+      {
+        fullName = "average"
+        default = false
+        label = "average"
+      },
+      {
+        fullName = "good"
+        default = false
+        label = "good"
+      },
+      {
+        fullName = "poor2"
+        default = false
+        isActive = false
+        label = "poor2"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
 }
