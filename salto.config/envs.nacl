@@ -1,0 +1,16 @@
+envs {
+  envs = [
+    {
+      name = "SF_UAT"
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
+    {
+      name = "SF_Production"
+      accountToServiceName = {
+        salesforce = "salesforce"
+      }
+    },
+  ]
+}

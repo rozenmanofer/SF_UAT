@@ -1,0 +1,7 @@
+salesforce.ApexClass ufn {
+  apiVersion = 54
+  status = "Active"
+  fullName = "ufn"
+  content = file("salesforce/Records/ApexClass/ufn.cls")
+  _alias = "ufn"
+}

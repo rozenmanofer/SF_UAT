@@ -1,0 +1,10 @@
+salesforce.ValidationRule Opportunity_diffs {
+  fullName = "Opportunity.diffs"
+  active = true
+  errorConditionFormula = "Amount < 1000"
+  errorMessage = "Amount is too small"
+  _parent = [
+    salesforce.Opportunity,
+  ]
+  _alias = "Opportunity.diffs"
+}
