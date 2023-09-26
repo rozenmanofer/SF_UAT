@@ -1,0 +1,8 @@
+envs {
+  envsCloud = [
+    {
+      uuid = "12d084ba-9350-4e29-84ae-d26dc9450804"
+      folderName = "SF_UAT"
+    },
+  ]
+}
