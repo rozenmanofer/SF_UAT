@@ -1,0 +1,12 @@
+salesforce.ApexClass oferClassTest {
+  apiVersion = 57
+  status = "Active"
+  fullName = "oferClassTest"
+  content = file("salesforce/Records/ApexClass/oferClassTest.cls")
+  _generated_dependencies = [
+    {
+      reference = salesforce.ApexClass.instance.oferClass
+    },
+  ]
+  _alias = "oferClassTest"
+}
