@@ -202,4 +202,49 @@ type salesforce.Account {
     updateable = true
     queryable = true
   }
+  salesforce.Email my_email__c {
+    apiName = "Account.my_email__c"
+    externalId = false
+    label = "my_email"
+    unique = false
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Picklist my_pick__c {
+    apiName = "Account.my_pick__c"
+    externalId = false
+    label = "my_pick"
+    valueSet = [
+      {
+        fullName = "val1"
+        default = false
+        label = "val1"
+      },
+      {
+        fullName = "val2"
+        default = false
+        label = "val2"
+      },
+      {
+        fullName = "val3"
+        default = false
+        label = "val3"
+      },
+    ]
+    sorted = false
+    restricted = true
+    createable = true
+    updateable = true
+    queryable = true
+  }
+  salesforce.Checkbox ofer_checkbox__c {
+    apiName = "Account.ofer_checkbox__c"
+    defaultValue = false
+    externalId = false
+    label = "ofer checkbox"
+    createable = true
+    updateable = true
+    queryable = true
+  }
 }

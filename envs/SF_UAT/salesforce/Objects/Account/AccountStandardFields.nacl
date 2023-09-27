@@ -17,6 +17,7 @@ type salesforce.Account {
     updateable = true
     queryable = true
     valueSetName = salesforce.StandardValueSet.instance.LeadSource
+    complianceGroup = "PII;GDPR;COPPA"
   }
   salesforce.Currency AnnualRevenue {
     apiName = "Account.AnnualRevenue"
